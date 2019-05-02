@@ -8,5 +8,9 @@ namespace UzziSoft.Controllers
 {
     public class UzziSoftController : Controller
     {
+        public string Detail()
+        {
+            return "Hello from UzziSoft!";
+        }
     }
 }
